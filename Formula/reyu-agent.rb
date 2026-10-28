@@ -28,6 +28,6 @@ class ReyuAgent < Formula
   end
 
   test do
-    assert_match version.to_s, shell_output("\#{bin}/reyu-agent --version")
+    assert_match version.to_s, shell_output("#{bin}/reyu-agent --version")
   end
 end
