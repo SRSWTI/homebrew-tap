@@ -1,7 +1,6 @@
 class ReyuAgent < Formula
   desc "Spec-driven coding agent CLI"
   homepage "https://reyu.dev"
-  version "0.6.3"
   license :cannot_represent
 
   on_macos do
